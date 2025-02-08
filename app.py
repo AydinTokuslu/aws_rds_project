@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # RDS bağlantı bilgileri
 DB_CONFIG = {
-    'dbname': 'database-1',
-    'user': 'school',
+    'dbname': 'school',
+    'user': 'postgres',
     'password': '1234postgre',
     'host': 'database-1.chaew8ekeb35.us-east-1.rds.amazonaws.com',
     'port': '5432'
