@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # RDS bağlantı bilgileri
 DB_CONFIG = {
-    'dbname': 'xxxxxxxxxxxxxxx',
-    'user': 'xxxxxxxxxxxxxxxxxx',
-    'password': 'xxxxxxxxxxxxx',
-    'host': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'dbname': 'database-1',
+    'user': 'school',
+    'password': '1234postgre',
+    'host': 'database-1.chaew8ekeb35.us-east-1.rds.amazonaws.com',
     'port': '5432'
 }
 
